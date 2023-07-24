@@ -1,0 +1,120 @@
+*{
+  box-sizing: border-box;
+  opacity: 0.9;
+  margin: 0;
+  padding: 0;
+  background-color: #333333;
+}
+html {
+  font-family: Helvetica;
+  font-size: 22px;
+  text-align: center;
+  color: seashell;
+}
+header {
+  position: fixed;
+  width: 100%;
+  border-bottom: 1px solid seashell;
+  display: flex;
+  min-height: 69px;
+  justify-content: space-between; /* Pushes contents to both ends */
+  align-items: center; /* centers items horizontally */
+  z-index: 1; /* Brings out the header */
+  background-color: #333333;
+  opacity: 1;
+}
+#logo {
+  margin-left: 10px;
+}
+header a {
+  color: seashell;
+  margin-right: 15px;
+}
+main {
+  margin: 0 60px;
+}
+section#mission {
+  background-image: url("images/img-mission-background.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /*Centers content horizontally*/
+  position: relative;
+  top: 70px;
+  height: 700px;
+  width: 100%;
+  padding-bottom: 60px;
+}
+.heading {
+  display: flex;
+  flex-direction: column;
+  margin-top: 150px;
+  margin-bottom: 40px;
+}
+section#featured_tea {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-basis: 300px;
+  margin-bottom: 150px;
+}
+figure img {
+  height: 200px;
+  width: 300px;
+  margin: 10px;
+}
+#loc {
+  display: block;
+  margin-block-end: -2.5em;
+  opacity: 1;
+}
+section#locations {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  align-items: baseline;
+  flex-wrap: wrap;
+  background-image: url("images/img-locations-background.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 500px;
+  width: 100%;
+  line-height: 65px;
+}
+.downtown {
+  width: 300px;
+  margin: 10px 40px;
+  opacity: 1;
+}
+.bayside {
+  width: 300px;
+  margin: 10px 40px;
+  opacity: 1;
+}
+.oakdale {
+  width: 300px;
+  margin: 10px 40px;
+  opacity: 1;
+}
+footer {
+  height: 200px;
+  padding-left: 20px;
+  line-height: 50px;
+}
+#cozy {
+  text-align: left;
+  margin-left: 20px;
+}
+
+
+
+
+
+
+
+
