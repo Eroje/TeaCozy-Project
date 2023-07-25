@@ -17,8 +17,8 @@ header {
   border-bottom: 1px solid seashell;
   display: flex;
   min-height: 69px;
-  justify-content: space-between; /* Pushes contents to both ends */
-  align-items: center; /* centers items horizontally */
+  justify-content: space-between; /* Pushes contents to both ends by creating space between the items*/
+  align-items: center; /* centers items vertically inside the row */
   z-index: 1; /* Brings out the header */
   background-color: #333333;
   opacity: 1;
